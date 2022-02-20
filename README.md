@@ -6,7 +6,7 @@ A list of python program.
 ## Docker build (version: Docker version 20.10.8, build 3967b7d)
 1) docker build . -t name            // Docker build
 2) docker run -d --name name --rm -p 8090:8080 -p 8091:8081 -p 8092:8082 -ti name:latest // Docker run (multi port for test program 2)
-3) docker exec -it name bash. // docker shell enter
+3) docker exec -it name bash // docker shell enter
 4) cd ./programs/
 
 ### Run program 1
